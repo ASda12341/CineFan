@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">CineFan</string>
+    
+    <!-- Descripciones generales -->
+    <string name="app_descripcion">La mejor aplicación para gestionar tu colección de películas</string>
+    
+    <!-- Títulos de actividades -->
+    <string name="titulo_principal">CineFan</string>
+    <string name="titulo_lista_peliculas">Catálogo de películas</string>
+    <string name="titulo_detalle_pelicula">Detalles de la película</string>
+    <string name="titulo_buscar">Buscar películas</string>
+    <string name="titulo_listas">Mis listas</string>
+    <string name="titulo_acerca_de">Acerca de CineFan</string>
+    <string name="nueva_pelicula">Nueva película</string>
+    <string name="editar_pelicula">Editar película</string>
+    
+    <!-- Botones -->
+    <string name="btn_catalogo">Catálogo</string>
+    <string name="btn_nueva_pelicula">Nueva película</string>
+    <string name="btn_listas">Mis listas</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_acerca_de">Acerca de</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_seleccionar_imagen">Seleccionar imagen</string>
+    <string name="btn_seleccionar_audio">Seleccionar audio</string>
+    <string name="btn_reproducir">Reproducir</string>
+    <string name="btn_detener">Detener</string>
+    <string name="btn_agregar_a_lista">Agregar a lista</string>
+    
+    <!-- Etiquetas de formularios -->
+    <string name="lbl_titulo">Título</string>
+    <string name="lbl_anio">Año</string>
+    <string name="lbl_director">Director</string>
+    <string name="lbl_genero">Género</string>
+    <string name="lbl_sinopsis">Sinopsis</string>
+    <string name="lbl_valoracion">Valoración</string>
+    <string name="lbl_imagen">Imagen</string>
+    <string name="lbl_audio">Audio</string>
+    <string name="lbl_buscar">Buscar</string>
+    <string name="lbl_filtrar_por">Filtrar por</string>
+    <string name="lbl_nombre_lista">Nombre de la lista</string>
+    <string name="lbl_descripcion_lista">Descripción</string>
+    
+    <!-- Mensajes -->
+    <string name="msg_sin_peliculas">No hay películas en el catálogo</string>
+    <string name="msg_sin_resultados">No se encontraron resultados</string>
+    <string name="msg_pelicula_guardada">Película guardada correctamente</string>
+    <string name="msg_pelicula_actualizada">Película actualizada correctamente</string>
+    <string name="msg_pelicula_eliminada">Película eliminada correctamente</string>
+    <string name="msg_confirmacion_eliminar">¿Está seguro de que desea eliminar esta película?</string>
+    <string name="msg_agregar_a_lista">Seleccione una lista para agregar la película</string>
+    <string name="msg_lista_creada">Lista creada correctamente</string>
+    <string name="audio_seleccionado">Audio seleccionado correctamente</string>
+    
+    <!-- Errores -->
+    <string name="error_guardar_pelicula">Error al guardar la película</string>
+    <string name="error_actualizar_pelicula">Error al actualizar la película</string>
+    <string name="error_eliminar_pelicula">Error al eliminar la película</string>
+    <string name="error_cargar_pelicula">Error al cargar la película</string>
+    <string name="error_campo_requerido">Este campo es obligatorio</string>
+    <string name="error_anio_invalido">El año debe estar entre 1888 y el año actual + 5</string>
+    <string name="error_valoracion_invalida">La valoración debe estar entre 0 y 10</string>
+    
+    <!-- Array de géneros -->
+    <string-array name="generos_peliculas">
+        <item>Acción</item>
+        <item>Aventura</item>
+        <item>Animación</item>
+        <item>Comedia</item>
+        <item>Crimen</item>
+        <item>Documental</item>
+        <item>Drama</item>
+        <item>Familia</item>
+        <item>Fantasía</item>
+        <item>Historia</item>
+        <item>Terror</item>
+        <item>Música</item>
+        <item>Misterio</item>
+        <item>Romance</item>
+        <item>Ciencia ficción</item>
+        <item>Thriller</item>
+        <item>Bélica</item>
+        <item>Western</item>
+    </string-array>
+    
+    <!-- Receptor de eventos -->
+    <string name="canal_notificaciones">Notificaciones CineFan</string>
+    <string name="canal_notificaciones_desc">Notificaciones sobre llamadas y mensajes recibidos</string>
+    <string name="llamada_entrante">Llamada entrante</string>
+    <string name="numero_llamando">El número %s está llamando</string>
+    <string name="sms_recibido">Mensaje recibido</string>
+    <string name="mensaje_de">Mensaje recibido de %s</string>
+    
+    <!-- Acerca de -->
+    <string name="acerca_de_contenido">CineFan es una aplicación para gestionar tu colección de películas.\n\nVersión: 1.0\n\nAutor: Tu Nombre\n\nDesarrollada como proyecto final del ciclo formativo DAM.</string>
+
+    <!-- Mensajes y etiquetas -->
+    <string name="msg_sin_listas">No hay listas creadas</string>
+    <string name="lbl_nueva_lista">Nueva lista</string>
+    <string name="btn_compartir">Compartir</string>
+    
+    <!-- Opciones de menú -->
+    <string name="menu_ordenar">Ordenar por</string>
+    <string name="menu_ordenar_titulo">Título</string>
+    <string name="menu_ordenar_anio">Año</string>
+    <string name="menu_ordenar_valoracion">Valoración</string>
+    <string name="menu_filtrar">Filtrar por</string>
+    <string name="menu_filtrar_genero">Género</string>
+    <string name="menu_filtrar_anio">Año</string>
+
+</resources>

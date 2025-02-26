@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">CineFan</string>
+    
+    <!-- General descriptions -->
+    <string name="app_descripcion">The best app to manage your movie collection</string>
+    
+    <!-- Activity titles -->
+    <string name="titulo_principal">CineFan</string>
+    <string name="titulo_lista_peliculas">Movie Catalog</string>
+    <string name="titulo_detalle_pelicula">Movie Details</string>
+    <string name="titulo_buscar">Search Movies</string>
+    <string name="titulo_listas">My Lists</string>
+    <string name="titulo_acerca_de">About CineFan</string>
+    <string name="nueva_pelicula">New Movie</string>
+    <string name="editar_pelicula">Edit Movie</string>
+    
+    <!-- Buttons -->
+    <string name="btn_catalogo">Catalog</string>
+    <string name="btn_nueva_pelicula">New Movie</string>
+    <string name="btn_listas">My Lists</string>
+    <string name="btn_buscar">Search</string>
+    <string name="btn_acerca_de">About</string>
+    <string name="btn_guardar">Save</string>
+    <string name="btn_cancelar">Cancel</string>
+    <string name="btn_editar">Edit</string>
+    <string name="btn_eliminar">Delete</string>
+    <string name="btn_seleccionar_imagen">Select Image</string>
+    <string name="btn_seleccionar_audio">Select Audio</string>
+    <string name="btn_reproducir">Play</string>
+    <string name="btn_detener">Stop</string>
+    <string name="btn_agregar_a_lista">Add to List</string>
+    
+    <!-- Form labels -->
+    <string name="lbl_titulo">Title</string>
+    <string name="lbl_anio">Year</string>
+    <string name="lbl_director">Director</string>
+    <string name="lbl_genero">Genre</string>
+    <string name="lbl_sinopsis">Synopsis</string>
+    <string name="lbl_valoracion">Rating</string>
+    <string name="lbl_imagen">Image</string>
+    <string name="lbl_audio">Audio</string>
+    <string name="lbl_buscar">Search</string>
+    <string name="lbl_filtrar_por">Filter by</string>
+    <string name="lbl_nombre_lista">List Name</string>
+    <string name="lbl_descripcion_lista">Description</string>
+    
+    <!-- Messages -->
+    <string name="msg_sin_peliculas">No movies in the catalog</string>
+    <string name="msg_sin_resultados">No results found</string>
+    <string name="msg_pelicula_guardada">Movie saved successfully</string>
+    <string name="msg_pelicula_actualizada">Movie updated successfully</string>
+    <string name="msg_pelicula_eliminada">Movie deleted successfully</string>
+    <string name="msg_confirmacion_eliminar">Are you sure you want to delete this movie?</string>
+    <string name="msg_agregar_a_lista">Select a list to add the movie</string>
+    <string name="msg_lista_creada">List created successfully</string>
+    <string name="audio_seleccionado">Audio selected successfully</string>
+    
+    <!-- Errors -->
+    <string name="error_guardar_pelicula">Error saving the movie</string>
+    <string name="error_actualizar_pelicula">Error updating the movie</string>
+    <string name="error_eliminar_pelicula">Error deleting the movie</string>
+    <string name="error_cargar_pelicula">Error loading the movie</string>
+    <string name="error_campo_requerido">This field is required</string>
+    <string name="error_anio_invalido">Year must be between 1888 and current year + 5</string>
+    <string name="error_valoracion_invalida">Rating must be between 0 and 10</string>
+    
+    <!-- Genres array -->
+    <string-array name="generos_peliculas">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Science Fiction</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+    
+    <!-- Event receiver -->
+    <string name="canal_notificaciones">CineFan Notifications</string>
+    <string name="canal_notificaciones_desc">Notifications about incoming calls and messages</string>
+    <string name="llamada_entrante">Incoming Call</string>
+    <string name="numero_llamando">Number %s is calling</string>
+    <string name="sms_recibido">Message Received</string>
+    <string name="mensaje_de">Message received from %s</string>
+    
+    <!-- About -->
+    <string name="acerca_de_contenido">CineFan is an app to manage your movie collection.\n\nVersion: 1.0\n\nAuthor: Your Name\n\nDeveloped as a final project for the DAM program.</string>
+
+    <!-- Mensajes y etiquetas -->
+    <string name="msg_sin_listas">No lists created</string>
+    <string name="lbl_nueva_lista">New list</string>
+    <string name="btn_compartir">Share</string>
+    
+    <!-- Opciones de menú -->
+    <string name="menu_ordenar">Sort by</string>
+    <string name="menu_ordenar_titulo">Title</string>
+    <string name="menu_ordenar_anio">Year</string>
+    <string name="menu_ordenar_valoracion">Rating</string>
+    <string name="menu_filtrar">Filter by</string>
+    <string name="menu_filtrar_genero">Genre</string>
+    <string name="menu_filtrar_anio">Year</string>
+
+</resources>

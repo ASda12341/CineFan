@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">CineFan</string>
+    
+    <!-- Descripciones generales -->
+    <string name="app_descripcion">La millor aplicació per gestionar la teva col·lecció de pel·lícules</string>
+    
+    <!-- Títulos de actividades -->
+    <string name="titulo_principal">CineFan</string>
+    <string name="titulo_lista_peliculas">Catàleg de pel·lícules</string>
+    <string name="titulo_detalle_pelicula">Detalls de la pel·lícula</string>
+    <string name="titulo_buscar">Cercar pel·lícules</string>
+    <string name="titulo_listas">Les meves llistes</string>
+    <string name="titulo_acerca_de">Sobre CineFan</string>
+    <string name="nueva_pelicula">Nova pel·lícula</string>
+    <string name="editar_pelicula">Editar pel·lícula</string>
+    
+    <!-- Botones -->
+    <string name="btn_catalogo">Catàleg</string>
+    <string name="btn_nueva_pelicula">Nova pel·lícula</string>
+    <string name="btn_listas">Les meves llistes</string>
+    <string name="btn_buscar">Cercar</string>
+    <string name="btn_acerca_de">Sobre</string>
+    <string name="btn_guardar">Desar</string>
+    <string name="btn_cancelar">Cancel·lar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_seleccionar_imagen">Seleccionar imatge</string>
+    <string name="btn_seleccionar_audio">Seleccionar àudio</string>
+    <string name="btn_reproducir">Reproduir</string>
+    <string name="btn_detener">Aturar</string>
+    <string name="btn_agregar_a_lista">Afegir a llista</string>
+    
+    <!-- Etiquetas de formularios -->
+    <string name="lbl_titulo">Títol</string>
+    <string name="lbl_anio">Any</string>
+    <string name="lbl_director">Director</string>
+    <string name="lbl_genero">Gènere</string>
+    <string name="lbl_sinopsis">Sinopsi</string>
+    <string name="lbl_valoracion">Valoració</string>
+    <string name="lbl_imagen">Imatge</string>
+    <string name="lbl_audio">Àudio</string>
+    <string name="lbl_buscar">Cercar</string>
+    <string name="lbl_filtrar_por">Filtrar per</string>
+    <string name="lbl_nombre_lista">Nom de la llista</string>
+    <string name="lbl_descripcion_lista">Descripció</string>
+    
+    <!-- Mensajes -->
+    <string name="msg_sin_peliculas">No hi ha pel·lícules al catàleg</string>
+    <string name="msg_sin_resultados">No s\'han trobat resultats</string>
+    <string name="msg_pelicula_guardada">Pel·lícula desada correctament</string>
+    <string name="msg_pelicula_actualizada">Pel·lícula actualitzada correctament</string>
+    <string name="msg_pelicula_eliminada">Pel·lícula eliminada correctament</string>
+    <string name="msg_confirmacion_eliminar">Estàs segur que vols eliminar aquesta pel·lícula?</string>
+    <string name="msg_agregar_a_lista">Selecciona una llista per afegir la pel·lícula</string>
+    <string name="msg_lista_creada">Llista creada correctament</string>
+    <string name="audio_seleccionado">Àudio seleccionat correctament</string>
+    
+    <!-- Errores -->
+    <string name="error_guardar_pelicula">Error al desar la pel·lícula</string>
+    <string name="error_actualizar_pelicula">Error al actualitzar la pel·lícula</string>
+    <string name="error_eliminar_pelicula">Error al eliminar la pel·lícula</string>
+    <string name="error_cargar_pelicula">Error al carregar la pel·lícula</string>
+    <string name="error_campo_requerido">Aquest camp és obligatori</string>
+    <string name="error_anio_invalido">L\'any ha d\'estar entre 1888 i l\'any actual + 5</string>
+    <string name="error_valoracion_invalida">La valoració ha d\'estar entre 0 i 10</string>
+    
+    <!-- Array de géneros -->
+    <string-array name="generos_peliculas">
+        <item>Acció</item>
+        <item>Aventura</item>
+        <item>Animació</item>
+        <item>Comèdia</item>
+        <item>Crim</item>
+        <item>Documental</item>
+        <item>Drama</item>
+        <item>Família</item>
+        <item>Fantasia</item>
+        <item>Història</item>
+        <item>Terror</item>
+        <item>Música</item>
+        <item>Misteri</item>
+        <item>Romanç</item>
+        <item>Ciència ficció</item>
+        <item>Thriller</item>
+        <item>Bèl·lica</item>
+        <item>Western</item>
+    </string-array>
+    
+    <!-- Receptor de eventos -->
+    <string name="canal_notificaciones">Notificacions CineFan</string>
+    <string name="canal_notificaciones_desc">Notificacions sobre trucades i missatges rebuts</string>
+    <string name="llamada_entrante">Trucada entrant</string>
+    <string name="numero_llamando">El número %s està trucant</string>
+    <string name="sms_recibido">Missatge rebut</string>
+    <string name="mensaje_de">Missatge rebut de %s</string>
+    
+    <!-- Acerca de -->
+    <string name="acerca_de_contenido">CineFan és una aplicació per gestionar la teva col·lecció de pel·lícules.\n\nVersió: 1.0\n\nAutor: El teu Nom\n\nDesenvolupada com a projecte final del cicle formatiu DAM.</string>
+
+    <!-- Mensajes y etiquetas -->
+    <string name="msg_sin_listas">No hi ha llistes creades</string>
+    <string name="lbl_nueva_lista">Nova llista</string>
+    <string name="btn_compartir">Compartir</string>
+    
+    <!-- Opciones de menú -->
+    <string name="menu_ordenar">Ordenar per</string>
+    <string name="menu_ordenar_titulo">Títol</string>
+    <string name="menu_ordenar_anio">Any</string>
+    <string name="menu_ordenar_valoracion">Valoració</string>
+    <string name="menu_filtrar">Filtrar per</string>
+    <string name="menu_filtrar_genero">Gènere</string>
+    <string name="menu_filtrar_anio">Any</string>
+
+</resources>
